@@ -13,17 +13,15 @@
         <title>Document</title>
     </head>
     <body>
-        <h1>
-
-                    
-                    
-            <?php echo $keyWord;?>
-            
-        </h1>
-
+        
         <p>
         
-            <?php echo $text;?> 
+            <?php echo $text; echo strlen($text);?> 
         </p>
+
+        <p>
+            <?php echo $text; echo strlen($text);?>  
+        </p>
+
     </body>
 </html>
