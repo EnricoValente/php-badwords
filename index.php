@@ -17,18 +17,18 @@
                 <input type="text" name="badword" value="<?php echo $keyWord;?>">
             </div>
             <div>
-                <textarea rows="4" cols="50" name="comment" value="<?php echo $text;?>">
-     
-                </textarea>
-                 
+                <textarea rows="4" name="comment" value="<?php echo $text;?>"></textarea>
             </div> 
-            
+     
             <div>
                 <button type="submit">
                     Invia
                 </button>
             </div>
         </form>
+                
+                 
+            
     </body>
 </html>
 

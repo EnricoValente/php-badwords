@@ -2,7 +2,10 @@
 <?php
     $keyWord = $_GET['badword'];
     $text = $_GET['comment'];
+
+    $censored = str_replace($keyWord, '***', $text);
 ?>
+
 
 
 <!DOCTYPE html>
@@ -20,7 +23,7 @@
         </p>
 
         <p>
-            <?php echo $text; echo strlen($text);?>  
+            <?php echo $censored; echo strlen($censored);?>  
         </p>
 
     </body>
